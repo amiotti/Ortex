@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
 
 function Login() {
@@ -71,7 +71,7 @@ function Login() {
                   <input type="checkbox" className="checkmark"></input>
                 </div>
                 <div class="w-50 text-md-right">
-                  <a href="reset">Forgot Password</a>
+                  <Link to="/reset">Forgot Password</Link>
                 </div>
 
                 <div class="form-group">
